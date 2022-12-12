@@ -119,3 +119,40 @@ Using the vowelCounter function below do the following:
 function vowelCounter(/*add your code here*/) {
     /*add your code here*/
 }
+//Task 1 - Voting Age
+
+const votingAge = 18;
+
+if(votingAge === 18){
+   console.log('true');
+   
+}else if (votingAge > 18){
+   console.log('is higher then');
+}else{
+   console.log('is too young');
+}
+
+const a = 4
+const b = 5;
+
+
+if(a + b == 10 || a < b){
+   console.log(a);
+} else{
+     console.log(' its not true');
+}
+
+
+const str = "1999";
+const nom =  1999;
+
+const as = (str + nom);
+console.log(as);
+
+
+for(let i = 0; i <= 100; i++){
+   console.log(i);
+}
+
+let v = (12 % 3);
+console.log(v);
